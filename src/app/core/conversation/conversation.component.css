@@ -1,0 +1,22 @@
+.conversation{
+    padding-top: 70px;
+    overflow: scroll;
+    height: 90vh;
+}
+.recv-box {
+    background-color: #202c33;
+    width: fit-content;
+    padding: 5px;
+    clear: right;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.send-box {
+    float: right;
+    clear: right;
+    background-color: #005c4b;
+    width: fit-content;
+    padding: 5px;
+    margin-bottom: 2px;
+}

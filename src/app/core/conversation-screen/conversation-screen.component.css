@@ -1,0 +1,15 @@
+.conversation-screen {
+    color: white;
+    background: url(".../../../../../assets/bg-chat-tile-dark_a4be512e7195b6b733d9110b408f075d.png");
+    backdrop-filter: brightness(0);
+    padding: 0 70px;
+    font-size: 16px;
+    height: 100vh;
+    overflow: scroll;
+}
+#sidebar{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    color: white;
+}

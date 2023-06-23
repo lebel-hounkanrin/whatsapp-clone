@@ -1,0 +1,29 @@
+#input-container{
+    background-color:rgba(32, 44, 51, 1);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 50px;
+
+}
+#input-container input {
+    width: 85%;
+    height: 40px;
+    background-color: rgba(42, 57, 66, 0.5);
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+#input-container img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
