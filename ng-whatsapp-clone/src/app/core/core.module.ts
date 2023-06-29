@@ -7,6 +7,7 @@ import { TopConversationScreenComponent } from './top-conversation-screen/top-co
 import { ConversationScreenComponent } from './conversation-screen/conversation-screen.component';
 import { ConversationComponent } from './conversation/conversation.component';
 import { ConversationInputComponent } from './conversation-input/conversation-input.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ConversationInputComponent } from './conversation-input/conversation-in
     ConversationInputComponent
   ],
   imports: [
-    CommonModule
+    CommonModule, 
+    FormsModule
   ],
   exports: [TopConversationListComponent, ConversationListComponent,
     TopConversationScreenComponent, ConversationScreenComponent, 
